@@ -95,6 +95,51 @@ public:
     };
 };
 
+//class Weapon {
+//protected:
+//    int ammunition;
+//    pair<int, int> ammunition_limits;
+//    vector <bool> magazine;
+//
+//    void Set_Ammunition(int _ammo) {
+//        ammunition = (_ammo >= ammunition_limits.first && _ammo <= ammunition_limits.second) ? _ammo : 0;
+//    };
+//
+//};
+//
+//class Weapon_Type_First : private Weapon {
+//    Weapon_Type_First(int _ammo) {
+//        ammunition_limits.first = 0;
+//        ammunition_limits.second = 45;
+//
+//        magazine.assign(15, false);
+//
+//        Set_Ammunition(_ammo);
+//    }
+//};
+//
+//class Weapon_Type_Second : private Weapon {
+//    Weapon_Type_Second(int _ammo) {
+//        ammunition_limits.first = 0;
+//        ammunition_limits.second = 30;
+//
+//        magazine.assign(10, false);
+//
+//        Set_Ammunition(_ammo);
+//    }
+//};
+//
+//class Weapon_Type_Third : private Weapon {
+//    Weapon_Type_Third(int _ammo) {
+//        ammunition_limits.first = 0;
+//        ammunition_limits.second = 15;
+//
+//        magazine.assign(5, false);
+//
+//        Set_Ammunition(_ammo);
+//    }
+//};
+
 
 
 //////////////
